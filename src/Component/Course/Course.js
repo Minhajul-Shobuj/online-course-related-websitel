@@ -4,7 +4,6 @@ import { Card, Col } from 'react-bootstrap';
 import './course.css'
 
 const Course = (props) => {
-    console.log(props);
     const { name, duration, author, videos, rating, img } = props.course;
     return (
         <div >
