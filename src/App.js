@@ -7,6 +7,7 @@ import Header from './Component/Header/Header';
 import Home from './Component/Home/Home';
 import NotFound from './Component/NotFound/NotFound';
 import Courses from './Component/Courses/Courses';
+import Footer from './Component/Footer/Footer';
 function App() {
   return (
     <div className="App">
@@ -32,6 +33,7 @@ function App() {
             <NotFound></NotFound>
           </Route>
         </Switch>
+        <Footer></Footer>
       </Router>
     </div>
   );

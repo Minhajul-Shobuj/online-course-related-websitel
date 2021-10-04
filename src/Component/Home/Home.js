@@ -8,8 +8,10 @@ const Home = () => {
     }, []);
     const course = courses.slice(7);
     return (
-        <div className="container">
-            <h1>This is home:{course.length}</h1>
+        <div>
+            <div className="d-flex container">
+                <h1 className="text-success">Laern-Quran is one of the popular site for learning Quran in Bangladesh as well all over the world..</h1>
+            </div>
             <Row xs={1} md={4} lg={3} className="g-4">
                 {
                     course.map(element => <Col className="card">

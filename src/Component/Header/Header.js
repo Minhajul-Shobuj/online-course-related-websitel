@@ -9,40 +9,30 @@ const Header = () => {
     }
     return (
         <div>
-            {/* <Navbar variant="dark">
-                <Container>
-                    <Nav className="me-auto">
-                        <NavLink to="/home" activeStyle={design}>
-                            Home
-                        </NavLink>
-                        <NavLink to="/course" activeStyle={design}>
-                            Courses
-                        </NavLink>
-                        <NavLink to="/about" activeStyle={design}>
-                            About
-                        </NavLink>
-                        <NavLink to="/blog" activeStyle={design}>
-                            Blog
-                        </NavLink>
-                    </Nav>
-                </Container>
-            </Navbar> */}
             <Navbar bg="primary" variant="dark">
                 <Container>
-                    <Navbar.Brand href="#home">Navbar</Navbar.Brand>
+                    <Navbar.Brand href="#home">Learn-Quran</Navbar.Brand>
                     <Nav className="me-auto">
-                        <NavLink className="text-white me-auto" to="/home" activeStyle={design}>
-                            Home
-                        </NavLink>
-                        <NavLink className="text-white gap={3}" to="/course" activeStyle={design}>
-                            Courses
-                        </NavLink>
-                        <NavLink className="text-white gap={3}" to="/about" activeStyle={design}>
-                            About
-                        </NavLink>
-                        <NavLink className="text-white gap={3}" to="/blog" activeStyle={design}>
-                            Blog
-                        </NavLink>
+                        <Nav.Link>
+                            <NavLink className="text-white me-auto" to="/home" activeStyle={design}>
+                                Home
+                            </NavLink>
+                        </Nav.Link>
+                        <Nav.Link>
+                            <NavLink className="text-white gap={3}" to="/course" activeStyle={design}>
+                                Courses
+                            </NavLink>
+                        </Nav.Link>
+                        <Nav.Link>
+                            <NavLink className="text-white gap={3}" to="/about" activeStyle={design}>
+                                About
+                            </NavLink>
+                        </Nav.Link>
+                        <Nav.Link>
+                            <NavLink className="text-white gap={3}" to="/blog" activeStyle={design}>
+                                Blog
+                            </NavLink>
+                        </Nav.Link>
                     </Nav>
                 </Container>
             </Navbar>
