@@ -1,5 +1,6 @@
 .card{
     height: 520px;
+    box-shadow: 20px;
 }
 .card img{
     height: 40%;

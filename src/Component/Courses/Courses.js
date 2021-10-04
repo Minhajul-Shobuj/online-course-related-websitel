@@ -9,8 +9,7 @@ const Courses = () => {
     }, [])
     return (
         <div>
-            <h1>This is Courses:{courses.length}</h1>
-            <Row xs={1} md={4} lg={4} className="g-4 grid">
+            <Row xs={1} md={4} lg={4} className="g-4 container">
                 {
                     courses.map(course => <Course key={course.name} course={course}></Course>)
                 }

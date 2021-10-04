@@ -13,7 +13,7 @@ const Course = (props) => {
                     <Card.Body className="card-body">
                         <Card.Title className="title">{name}</Card.Title>
                         <Card.Text>
-                            <h4>By <small className="title">{author}</small></h4>
+                            <h4>By- <small className="title">{author}</small></h4>
                             <h4>Duration:<small className="title"> {duration}</small></h4>
                             <h4 >Lectures:<small className="title"> {videos}</small></h4>
                             <h4>Rating:<small className="title"> {rating}</small></h4>
