@@ -20,7 +20,7 @@ const Course = (props) => {
                         </Card.Text>
                     </Card.Body>
                     <Card.Footer>
-                        <Button variant="primary">Enroll</Button>
+                        <Button className="btn" variant="primary">Enroll</Button>
                     </Card.Footer>
                 </Card>
             </Col>
