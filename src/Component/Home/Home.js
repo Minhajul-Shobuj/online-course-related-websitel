@@ -7,7 +7,7 @@ const Home = () => {
     useEffect(() => {
         fetch('./courses.JSON').then(res => res.json()).then(data => setCourses(data))
     }, []);
-    const course = courses.slice(7);
+    const course = courses.slice(4);
     let history = useHistory();
     function handleClick() {
         history.push("/course");
