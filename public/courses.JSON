@@ -5,6 +5,7 @@
         "author": "Saifullah Khan",
         "videos": "30",
         "rating": "4.6",
+        "price": "2000tk",
         "img": "https://gdurl.com/ZX50"
     },
     {
@@ -13,6 +14,7 @@
         "author": "Md Ezzad Farid",
         "videos": "38",
         "rating": "4.3",
+        "price": "1000tk",
         "img": "https://gdurl.com/kjfC"
     },
     {
@@ -21,6 +23,7 @@
         "author": "Md Gamal",
         "videos": "8",
         "rating": "4.7",
+        "price": "3000tk",
         "img": "https://gdurl.com/kR2r"
     },
     {
@@ -29,6 +32,7 @@
         "author": "Saifullah Khan",
         "videos": "63",
         "rating": "3.9",
+        "price": "2500tk",
         "img": "https://gdurl.com/LWCv"
     },
     {
@@ -37,6 +41,7 @@
         "author": "Hamid Raza",
         "videos": "28",
         "rating": "4.9",
+        "price": "1500tk",
         "img": "https://gdurl.com/VCFl"
     },
     {
@@ -45,6 +50,7 @@
         "author": "Shahzeb Hussain",
         "videos": "15",
         "rating": "4.6",
+        "price": "2000tk",
         "img": "https://gdurl.com/ZA18"
     },
     {
@@ -53,6 +59,7 @@
         "author": "Abdul Aziz",
         "videos": "39",
         "rating": "4.8",
+        "price": "3000tk",
         "img": "https://gdurl.com/q-FjK"
     },
     {
@@ -61,6 +68,7 @@
         "author": "Islam4u .pro",
         "videos": "56",
         "rating": "4.7",
+        "price": "2000tk",
         "img": "https://gdurl.com/XjFg"
     },
     {
@@ -69,6 +77,7 @@
         "author": "Belal Hassan",
         "videos": "28",
         "rating": "4.7",
+        "price": "1000tk",
         "img": "https://gdurl.com/jGWP"
     },
     {
@@ -77,6 +86,7 @@
         "author": "Abdul Aziz",
         "videos": "30",
         "rating": "3.3",
+        "price": "3000tk",
         "img": "https://gdurl.com/cPCv"
     }
 ]

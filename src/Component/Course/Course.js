@@ -4,7 +4,7 @@ import { Card, Col } from 'react-bootstrap';
 import './course.css'
 
 const Course = (props) => {
-    const { name, duration, author, videos, rating, img } = props.course;
+    const { name, duration, author, videos, rating, img, price } = props.course;
     return (
         <div >
             <Col className="card">
@@ -17,6 +17,7 @@ const Course = (props) => {
                             <h4>Duration:<small className="title"> {duration}</small></h4>
                             <h4 >Lectures:<small className="title"> {videos}</small></h4>
                             <h4>Rating:<small className="title"> {rating}</small></h4>
+                            <h4>Price:<small className="title"> {price}</small></h4>
                         </Card.Text>
                     </Card.Body>
                     <Card.Footer>

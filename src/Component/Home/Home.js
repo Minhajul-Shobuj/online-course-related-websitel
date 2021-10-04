@@ -30,6 +30,7 @@ const Home = () => {
                                         <h4>Duration:<small className="title"> {element.duration}</small></h4>
                                         <h4 >Lectures:<small className="title"> {element.videos}</small></h4>
                                         <h4>Rating:<small className="title"> {element.rating}</small></h4>
+                                        <h4>Price:<small className="title"> {element.price}</small></h4>
                                     </Card.Text>
                                 </Card.Body>
                                 <Card.Footer>
