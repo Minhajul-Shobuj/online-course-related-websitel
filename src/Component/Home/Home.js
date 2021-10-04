@@ -20,7 +20,7 @@ const Home = () => {
             <div>
                 <Row xs={1} md={4} lg={3} className="g-4 container">
                     {
-                        course.map(element => <Col className="card">
+                        course.map(element => <Col>
                             <Card>
                                 <Card.Img variant="top" src={element.img} />
                                 <Card.Body className="card-body">
